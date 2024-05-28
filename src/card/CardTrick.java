@@ -64,7 +64,7 @@ public class CardTrick {
                 break;
             } 
         }
-        if (check=false){
+        if (check==false){
         System.out.println("Sorry, your card is not in the magic hand!");
         }
         
@@ -81,15 +81,15 @@ public class CardTrick {
         luckyCard.setValue(2);
         luckyCard.setSuit("Clubs");
         
-        boolean check=false;
+        boolean luckyCheck=false;
         for (Card magicHand1 : magicHand) {
             if (luckyCard.getValue() == magicHand1.getValue() && luckyCard.getSuit().equals(magicHand1.getSuit())) {
                 System.out.println("Your lucky card is in the magic hand!");
-                check=true;
+                luckyCheck=true;
                 break;
             } 
         }
-        if (check=false){
+        if (luckyCheck==false){
         System.out.println("Sorry, your lucky card is not in the magic hand!");
         }
     }
