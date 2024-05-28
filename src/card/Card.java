@@ -13,6 +13,7 @@ package card;
  * add your name as a modifier.
  * @author Jasmeet Gill
  *  Student Number: 991280576
+ * Date: May 27 2024
  */
 public class Card {
 
